@@ -1,0 +1,66 @@
+h1,h2,h3
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1
+{
+    text-decoration: underline;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+#formulaire
+{
+    background: rgb(34, 64, 82);
+    color: goldenrod;
+}
+
+marquee
+{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(34, 64, 82);
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+a,li
+{
+    text-decoration:none ;
+    font-family: serif;
+    display: block;
+    list-style: none;
+    color: rgb(34, 64, 82);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#logo
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+#me
+{
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+.cv
+{
+    height: 500px;
+}

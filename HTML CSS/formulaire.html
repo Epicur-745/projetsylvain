@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="formulaire">
+        <fieldset>
+        <div class="container-fluid">
+        <h1>FORMULAIRE</h1>
+    <form action="">
+        <label for="nom">Nom:</label>
+        <input type="text" name="nom" class="form-control">
+        <label for="prenom">Prénom:</label>
+        <input type="text" name="prenom" class="form-control">
+        <label for="email">Email:</label>
+        <input type="email" name="email" class="form-control">
+        <label for="password">Mot de passe:</label>
+        <input type="password" name="password" class="form-control">
+        <label for="sexe">Sexe:</label><br>
+        <input type="radio" name="sexe"><span>Homme</span></input><br>
+        <input type="radio" name="sexe"><span>Femme</span></input><br>
+        <label for="country">Pays d'origine</label>
+        <select name="country" id="" class="btn btn-default">
+            <option value="">Algérie</option>
+            <option value="">Afrique du sud</option>
+            <option value="">Bénin</option>
+            <option value="">Burkina Faso</option>
+            <option value="">Burundi</option>
+            <option value="">Cameroun</option>
+            <option value="">Centrafrique</option>
+            <option value="">Congo Brazzaville</option>
+            <option value="">Congo Kinshasa</option>
+            <option value="">Côte d'Ivoire</option>
+            <option value="">Egypte</option>
+            <option value="">Gabon</option>
+            <option value="">Gambie</option>
+            <option value="">Ghana</option>
+            <option value="">Kénya</option>
+            <option value="">Libye</option>
+            <option value="">Mali</option>
+            <option value="">Mozambique</option>
+            <option value="">Namibie</option>
+            <option value="">Ouganda</option>
+        </select><br><br>
+        <label for="description">Description:</label>
+        <textarea name="description" class="form-control"></textarea>
+        <br><hr style="width: 60%;">
+        <h2>Renseignez-nous sur vos préférences</h2>
+         <h3>Passe-temps préféré(s)</h3>
+         <input type="checkbox"><span>Musique</span><br>
+         <input type="checkbox"><span>Football</span><br>
+         <input type="checkbox"><span>Basketball</span><br>
+         <input type="checkbox"><span>Dessin</span><br>
+         <input type="checkbox"><span>Balade</span><br>
+         <input type="checkbox"><span>Voyage</span><br>
+         <input type="checkbox"><span>Lecture</span><br>
+         <input type="checkbox"><span>Film</span><br><br>
+         <label for="photo">Joindre une photo:</label>
+         <input type="file" name="photo" class="btn btn-default"><br><br>
+         <input type="submit" class="btn btn-success">
+         <input type="reset" class="btn btn-warning">
+         <input type="button" class="btn btn-danger" value="Quitter" id="quitter">
+    </form>
+        </div>
+         </fieldset>
+        </body>
+</html>
